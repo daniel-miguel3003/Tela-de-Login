@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(45, 199, 73);
+    background: linear-gradient(90deg, rgba(45, 199, 73, 1) 0%, rgba(22, 12, 226, 1) 100%, rgba(254, 255, 0, 0.9248074229691877) 100%);
+    overflow: hidden;
+}
+
+.conteudo-principal {
+    background-color: rgb(140, 55, 219);
+    height: 450px;
+    width: 350px;
+    padding: 30px;
+    margin: 60px auto;
+    margin-top: 80px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px 2px;
+}
+
+h1 {
+    color: white;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+.login {
+    display: block;
+}
+
+input {
+    margin: 10px;
+    height: 45px;
+    width: 18vw;
+    margin-top: px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    outline: none;
+}
+
+.olho {
+    margin-left: -40px;
+    margin-top: 87px;
+    cursor: pointer;
+    position: absolute;
+    width: 20px;
+}
+
+.btn {
+    margin: 5px;
+    margin-top: 10px;
+    height: 45px;
+    width: 18vw;
+    border-radius: 10px;
+    border: none;
+    background: rgb(185, 183, 183);
+    text-transform: uppercase;
+    transition: background 600ms;
+    transition: all ease 0.5s;
+    opacity: 0.8;
+}
+
+.btn:hover {
+    cursor: pointer;
+    letter-spacing: 2px;
+    background: rgb(168, 176, 62);
+    background: linear-gradient(90deg,
+            rgba(168, 176, 62, 1) 0%,
+            rgba(226, 112, 12, 1) 100%,
+            rgba(0, 212, 255, 1) 100%);
+    opacity: 1;
+}
+
+.paragrafo {
+    margin: 30px;
+    color: white;
+    font-size: medium;
+    font-family: sans-serif;
+}
+
+.strong {
+    cursor: pointer;
+}
+
+footer {
+    text-align: justify;
+    padding-top: 60px;
+    text-transform: uppercase;
+    color: green;
+}
+
